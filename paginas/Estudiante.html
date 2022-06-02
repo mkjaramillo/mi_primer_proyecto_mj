@@ -5,18 +5,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/misPrimerosEstilo.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/html/styles.css">
+    <style>
+        .botonesNuevos{
+            color: darkgoldenrod;
+            background-color: black;
+        }
+        h1{
+            color: darkgreen;
+        }
+    </style>
     <title>Nuevo Estudiante</title>
 </head>
 
 <body>
     <form action="">
+        <h1>Estilo por elemento</h1>
         <!--permite maquetar la pagina web-->
+        <p>texto de prueba de una URL</p>
         <table>
             <!--filas-->
             <tr>
                 <td>
                    
-                    <img src="../img/google.jpg" alt="texto alternativo">
+                    <img src="../img/uce.png" alt="texto alternativo">
                 </td>
                 
             </tr>
@@ -72,7 +85,27 @@
         <table>
             <tr>
                 <td>
-                    <button>Guardar</button>
+                    <button >Guardar</button>
+
+                </td>
+                <td>
+                    <!--css en linea-->
+                    <button style="color:blueviolet;background-color: bisque;">Guardar con estilo en linea</button>
+
+                </td>
+                <td>
+                    <!--css interno-->
+                    <button class="botonesNuevos" >Guardar con estilo interno</button>
+
+                </td>
+                <td>
+                    <!--css externo-->
+                    <button class="botonesViejos" >Guardar con estilo externo</button>
+
+                </td>
+                <td>
+                    <!--css externo-->
+                    <button id="idbotonNuevo" >Guardar con estilo id externo</button>
 
                 </td>
                 <td>
@@ -82,7 +115,7 @@
                     <button>Actualizar</button>
                 </td>
                 <td>
-                    <button>Eliminar</button>
+                    <button class="botonesNuevos">Eliminar</button>
                 </td>
             </tr>
         </table>
