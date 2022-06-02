@@ -4,3 +4,54 @@
 #idbotonNuevo{
     color:blue
 }
+a[href]{
+ color: blue;
+ background-color:yellow;
+ opacity:0.5;
+}
+#borde1{
+    border-style: dotted;
+    margin: 20px 100px 20px 70px;
+}
+#borde2{
+    border-style: dashed;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-right:20px ;
+    margin-left:70px ;
+}
+#borde3{
+    border-style: solid; 
+}
+#borde4{
+    border-style: double;
+}
+#borde5{
+    border-style: groove;
+}
+#borde6{
+    border-style: ridge;
+    padding: 70px 50px ;
+}
+#borde7{
+    border-style: solid;
+    padding-top: 70px;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 70px;
+
+}
+#borde8{
+    border-style: outset;
+    margin: 100px;
+}
+#borde9{
+    border-style: none;
+   margin: 100px 70px;
+}
+#borde10{
+    border-style: hidden;
+}
+#borde11{
+    border-style: dotted dashed solid none;
+}
