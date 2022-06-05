@@ -1,0 +1,35 @@
+table{
+    background-image: url(../img/fondo.jpg);
+    text-align: center;
+    text-decoration: underline purple;
+    outline: auto;
+    border-spacing: 15px;
+ 
+}
+#idRegistro{
+   border: 10px solid ;
+    font-size: medium;
+    font-style: italic;
+    border-image: url(../img/fondo2.jpg); 
+    border-image-slice: 10%;
+    float:right;
+}
+input[type=text] {
+    width: 170px;
+    box-sizing: border-box;
+    background-color:lightpink;
+    transition: width 0.4s ease-in-out;
+    display: inline-block;
+    overflow: scroll;
+   
+  }
+  input[type=text]:focus {
+    width: 100%;
+  }
+.privado{
+    
+    border-radius: 5px;
+    border-color: darkblue;
+    cursor: pointer;
+  
+}
