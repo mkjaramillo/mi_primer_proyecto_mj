@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/misPrimerosEstilo.css">
+    <script src="../JS/misPrimerosScripts.js"></script>
+    <script>
+        function cambiarClase(){
+            
+           var valorActualClase=document.getElementById("idParrafo").className; 
+           if(valorActualClase=='viejo'){
+               valorActualClase='nuevo'
+
+           }else{
+                valorActualClase='viejo'
+           }
+           document.getElementById("idParrafo").className=valorActualClase;
+        }
+        function cambiarEstilo(){
+         document.getElementById("idMensaje").style.color="red"
+        }
+    </script>
+    <title>Document</title>
+</head>
+<body>
+    <p id="idMensaje">Nuestra primera clase de JavaScript</p>
+    <h1 class="viejo"id="idParrafo">Pertenece a la clase</h1>
+    <button type="button" onclick='document.getElementById("idMensaje").innerHTML="El texto se cambio"'>Cambiar Mensaje</button>
+    <button type="button" onclick='document.getElementById("idParrafo").className="nuevo"'>Cambiar Clase</button>
+    <button type="button" onclick='document.getElementById("idParrafo").className="viejo"'>Cambiar Clase vieja</button>
+    <button type="button" onclick='cambiarClase()'>Smart</button>
+    <button type="button" onclick='cambiarEstilo()'>Cambiar color</button>
+    <img src="../img/uce.png" alt="no se muestra la imagen" id="idImagen">
+    <button type="button" onclick='ocultarMostrarImagen()'>Ocultar-Mostrar</button>
+
+
+</body>
+</html>
