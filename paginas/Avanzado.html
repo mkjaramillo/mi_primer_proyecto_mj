@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/misPrimerosEstilo.css">
+
+    <script src="../JS/misPrimerosScripts.js"></script>
+
+</head>
+<body>
+    <h1 class="nuevo">Primer texto</h1>
+    <h2 class="nuevo">Segundo texto</h2>
+    <h3 class="nuevo">Tercer texto</h3>
+    <h1 class="nuevo">Nuevo texto</h1>
+    <button onclick="cambiarTextos()">Cambiar Textos</button>
+   
+    <button onclick="cambiarTextosElementos()">Cambiar Textos por elemento</button>
+    <!---->
+    <div onmouseover="mOver()" id="div1" style="width:100px ; height:55px; background-color: yellow;border: solid;" onmouseout="mOut()">Texto para nuevos eventos</div>
+    <div onmouseover="mOver(this)" id="div1" style="width:100px ; height:55px; background-color: yellow;border: solid;" onmouseout="mOut(this)">Texto para nuevos eventos 2</div>
+    <div onmousedown="mOver(this)" id="div1" style="width:100px ; height:55px; background-color: yellow;border: solid;" onmouseout="mOut(this)">Texto para nuevos eventos 2</div>
+
+<button onclick="imprimirPersona()">imprimir</button>
+
+
+</body>
+</html>
