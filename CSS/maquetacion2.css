@@ -23,3 +23,6 @@ table{
 div{
     text-align: right; 
 }
+legend{
+    font-weight: bold;
+}
