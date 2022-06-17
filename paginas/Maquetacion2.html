@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/maquetacion2.css">
+    <title>Registro</title>
+</head>
+
+<body>
+    <header>
+        <h1>Formulario de registro</h1>
+    </header>
+    <form action="">
+        <fieldset>
+            <legend>Nombre y apellidos</legend>
+
+
+            <p>
+                <input id="idNombre" type="text">
+                <label for="idNombre">Nombre:</label>
+                <input id="idApellido" type="text">
+                <label for="idApellido">Primer Apellido:</label>
+                <input id="idApellido2" type="text">
+                <label for="idApellido2">Segundo Apellido:</label>
+
+            </p>
+
+        </fieldset>
+        <fieldset>
+            <legend>Dirección</legend>
+            <p>
+                <input id="idCalle" type="text">
+                <label for="idCalle">Calle,numero,piso,puerta:</label>
+
+                <table>
+                    <tr>
+                        <td>
+                            <input  id="idPostal" type="text">
+                            <label  for="idPostal">Codigo Postal:</label>
+                        </td>
+                        <td>
+                            <input  id="idMunicipio" type="text">
+                            <label  for="idMunicipio">Municipio:</label>
+                        </td>
+                    </tr>
+                </table>
+               
+
+                
+            </p>
+            <p>
+                <table>
+                    <tr>
+                        <td>
+                            
+                           
+                            <select name="pais" id="idPais">
+                                <option value="E">Ecuador</option>
+                                <option value="P">Peru</option>
+                                <option value="A">Argentina</option>
+                            </select>
+                            <label  for="idPais">Pais:</label>
+                        </td>
+                        <td>
+                           
+                            <select name="ciudad" id="idCiudad">
+                                <option value="Q">Quito</option>
+                                <option value="G">Guayaquil</option>
+                                <option value="A">Ambato</option>
+                            </select>
+                            <label  for="idCiudad">Provincia:</label>
+                        </td>
+                    </tr>
+                </table>
+                
+               
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Email</legend>
+            <p>
+                
+                <input id="idCorreo" type="email">
+            </p>
+
+        </fieldset>
+        <fieldset>
+            <legend>Telefono</legend>
+            <p>
+                <table>
+                    <tr>
+                        <td>
+                            <span>
+            
+                                <input id="idFijo" type="text">
+                                <label for="idFijo">Fijo:</label>
+                            </span>
+                        </td>
+                        <td>
+                            <span>
+                                <input id="idMovil" type="text">
+                                <label for="idMovil">Movil:</label>
+                            </span>
+                        </td>
+                        
+                    </tr>
+                </table>
+
+           
+            
+          
+            
+            </p>
+
+
+        </fieldset>
+        <div>
+            <button>
+                Registrar
+            </button>
+        </div>
+        
+    </form>
+
+
+</body>
+
+</html>

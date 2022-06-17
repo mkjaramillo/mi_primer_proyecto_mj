@@ -1,0 +1,25 @@
+label{
+    display: block;
+}
+input{
+    
+    border: transparent;
+    border-bottom: 0.2em solid black;
+    
+   
+}
+p{
+    text-align: center; 
+}
+
+
+#button{
+    text-align: right;
+}
+table{
+    margin: auto;
+    
+}
+div{
+    text-align: right; 
+}
